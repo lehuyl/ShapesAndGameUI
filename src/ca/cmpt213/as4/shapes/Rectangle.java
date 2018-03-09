@@ -4,7 +4,6 @@ public class Rectangle extends ShapeImpl {
     public Rectangle(int x, int y, int width, int height)
     {
         super(x,y,width,height);
-
     }
 
     /**
@@ -44,9 +43,11 @@ public class Rectangle extends ShapeImpl {
         int leftEdge = this.getLocationX();
         int rightEdge = this.getLocationX() + this.getWidth() - 1;
 
-        for(int x = leftEdge + 1; x < rightEdge; x++)
-        {
+//        for(int x = leftEdge + 1; x < rightEdge; x++)
             for(int y = topEdge + 1; y < bottomEdge; y++)
+        {
+//            for(int y = topEdge + 1; y < bottomEdge; y++)
+            for(int x = leftEdge + 1; x < rightEdge; x++)
             {
                 if(x == xPos && y == yPos)
                 {

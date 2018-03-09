@@ -10,9 +10,9 @@ public class Triangle extends ShapeImpl {
     {
         boolean isBorder = false;
         int leftEdge = this.getLocationX();
-        int rightEdge = this.getLocationX() + this.getWidth() - 1;
-//        int rightEdge = 1;
-        int topEdge = this.getLocationY() + this.getHeight();
+//        int rightEdge = this.getLocationX() + this.getWidth() - 1;
+        int rightEdge = this.getLocationX();
+        int topEdge = this.getLocationY();
         int bottomEdge = this.getLocationY() + this.getHeight() - 1;
 
         //Check Left and Bottom Edge
@@ -26,15 +26,16 @@ public class Triangle extends ShapeImpl {
         }
         else
         {
-            int edgeCounter = 1;
-            for(int x = leftEdge; x < rightEdge; x++)
+            for(int y = topEdge; y < bottomEdge; y++)
             {
-                for(int y = topEdge; y < bottomEdge; y++)
+                for(int x = leftEdge; x <= rightEdge; x++)
                 {
-                    if(x == xPos && y == yPos) {
+                    if(x == xPos && y == yPos && !isInside(x,y))
+                    {
                         isBorder = true;
                     }
                 }
+                rightEdge++;
             }
         }
 
@@ -47,10 +48,19 @@ public class Triangle extends ShapeImpl {
         int topEdge = this.getLocationY();
         int bottomEdge = this.getLocationY() + this.getHeight() - 1;
         int leftEdge = this.getLocationX();
-        int rightEdge = getLocationX();
+        int rightEdge = this.getLocationX();
 
-
-
+        for(int y = topEdge; y < bottomEdge; y++)
+        {
+            for(int x = leftEdge; x < rightEdge; x++)
+            {
+                if(x == xPos && y == yPos)
+                {
+                    isInside = true;
+                }
+            }
+            rightEdge++;
+        }
 
         return isInside;
     }
