@@ -288,85 +288,85 @@ public class MainGUI {
         picture.addFront(tb1);
     }
 
-//    // //////////////////////////////////////////////////////////////////////////
-//    // Mixed Picture Test
-//    // //////////////////////////////////////////////////////////////////////////
-//    private static PicturePanel makeMixedPicture() {
-//        PicturePanel pic = new PicturePanel("Mixed Element Picture Test:", SIZE_X, SIZE_Y);
-//
-//        // Add border
-//        Rectangle rect = new Rectangle(0, 0, SIZE_X, SIZE_Y);
-//        rect.setColor(Color.ORANGE);
-//        rect.setBorderChar('#');
-//        pic.addFront(rect);
-//
-//        // Text box with styling:
-//        rect = new TextBox(45, 10, 30, 4, "A box!");
-//        rect.setColor(Color.RED);
-//        rect.setBorderChar('%');
-//        pic.addFront(rect);
-//
-//        // Bunch of other shapes:
-//        Triangle shape2 = new Triangle(15, 2, 20);
-//        shape2.setColor(Color.CYAN);
-//        pic.addFront(shape2);
-//
-//        Rectangle shape3 = new Rectangle(25, 8, 15, 8);
-//        shape3.setColor(Color.GREEN);
-//        pic.addFront(shape3);
-//
-//        Triangle shape4 = new Triangle(54, 1, 5);
-//        shape4.setColor(Color.DARK_GRAY);
-//        pic.addFront(shape4);
-//
-//        TextBox shape5 = new TextBox(2, 2, 3, 20, "Thin text in a box!");
-//        shape5.setColor(Color.YELLOW);
-//        pic.addFront(shape5);
-//
-//        Rectangle shape6 = new Rectangle(72, 18, 5, 4);
-//        shape6.setColor(Color.MAGENTA);
-//        pic.addFront(shape6);
-//
-//        return pic;
-//    }
-//
-//    // //////////////////////////////////////////////////////////////////////////
-//    // Test picture by adding shapes to the front and back.
-//    // //////////////////////////////////////////////////////////////////////////
-//    private static PicturePanel makeFrontAndBackPicture() {
-//        PicturePanel pic = new PicturePanel("Front And Back Picture Test:", SIZE_X, SIZE_Y);
-//
-//        // Box around text
-//        Rectangle rect = new Rectangle(30, 7, 20, 12);
-//        rect.setColor(Color.RED);
-//        rect.setBorderChar('B');
-//        pic.addBack(rect);
-//
-//        // Triangle in background-left
-//        Triangle triLeft = new Triangle(25, 3, 18);
-//        triLeft.setColor(Color.CYAN);
-//        triLeft.setBorderChar('L');
-//        pic.addBack(triLeft);
-//
-//        // Text on top:
-//        TextBox textTop = new TextBox(35, 9, 10, 8, "I'm on top! WOOO HOO!");
-//        textTop.setColor(Color.LIGHT_GRAY);
-//        textTop.setBorderChar('T');
-//        pic.addFront(textTop);
-//
-//        // Triangle in background-right
-//        Triangle triRight = new Triangle(45, 3, 18);
-//        triRight.setColor(Color.BLUE);
-//        triRight.setBorderChar('R');
-//        pic.addBack(triRight);
-//
-//        // Text in very back:
-//        TextBox textBack = new TextBox(10, 1, SIZE_X-20, SIZE_Y-2, "Aww drat, I'm at the back.");
-//        textBack.setColor(Color.YELLOW);
-//        textBack.setBorderChar('O');
-//        pic.addBack(textBack);
-//
-//        return pic;
-//    }
-//
+    // //////////////////////////////////////////////////////////////////////////
+    // Mixed Picture Test
+    // //////////////////////////////////////////////////////////////////////////
+    private static PicturePanel makeMixedPicture() {
+        PicturePanel pic = new PicturePanel("Mixed Element Picture Test:", SIZE_X, SIZE_Y);
+
+        // Add border
+        Rectangle rect = new Rectangle(0, 0, SIZE_X, SIZE_Y);
+        rect.setColor(Color.ORANGE);
+        rect.setBorderChar('#');
+        pic.addFront(rect);
+
+        // Text box with styling:
+        rect = new TextBox(45, 10, 30, 4, "A box!");
+        rect.setColor(Color.RED);
+        rect.setBorderChar('%');
+        pic.addFront(rect);
+
+        // Bunch of other shapes:
+        Triangle shape2 = new Triangle(15, 2, 20);
+        shape2.setColor(Color.CYAN);
+        pic.addFront(shape2);
+
+        Rectangle shape3 = new Rectangle(25, 8, 15, 8);
+        shape3.setColor(Color.GREEN);
+        pic.addFront(shape3);
+
+        Triangle shape4 = new Triangle(54, 1, 5);
+        shape4.setColor(Color.DARK_GRAY);
+        pic.addFront(shape4);
+
+        TextBox shape5 = new TextBox(2, 2, 3, 20, "Thin text in a box!");
+        shape5.setColor(Color.YELLOW);
+        pic.addFront(shape5);
+
+        Rectangle shape6 = new Rectangle(72, 18, 5, 4);
+        shape6.setColor(Color.MAGENTA);
+        pic.addFront(shape6);
+
+        return pic;
+    }
+
+    // //////////////////////////////////////////////////////////////////////////
+    // Test picture by adding shapes to the front and back.
+    // //////////////////////////////////////////////////////////////////////////
+    private static PicturePanel makeFrontAndBackPicture() {
+        PicturePanel pic = new PicturePanel("Front And Back Picture Test:", SIZE_X, SIZE_Y);
+
+        // Box around text
+        Rectangle rect = new Rectangle(30, 7, 20, 12);
+        rect.setColor(Color.RED);
+        rect.setBorderChar('B');
+        pic.addBack(rect);
+
+        // Triangle in background-left
+        Triangle triLeft = new Triangle(25, 3, 18);
+        triLeft.setColor(Color.CYAN);
+        triLeft.setBorderChar('L');
+        pic.addBack(triLeft);
+
+        // Text on top:
+        TextBox textTop = new TextBox(35, 9, 10, 8, "I'm on top! WOOO HOO!");
+        textTop.setColor(Color.LIGHT_GRAY);
+        textTop.setBorderChar('T');
+        pic.addFront(textTop);
+
+        // Triangle in background-right
+        Triangle triRight = new Triangle(45, 3, 18);
+        triRight.setColor(Color.BLUE);
+        triRight.setBorderChar('R');
+        pic.addBack(triRight);
+
+        // Text in very back:
+        TextBox textBack = new TextBox(10, 1, SIZE_X-20, SIZE_Y-2, "Aww drat, I'm at the back.");
+        textBack.setColor(Color.YELLOW);
+        textBack.setBorderChar('O');
+        pic.addBack(textBack);
+
+        return pic;
+    }
+
 }

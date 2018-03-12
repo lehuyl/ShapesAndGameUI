@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8def1a20-aca2-49c7-9f99-d4bafbab5121" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShapesAndGameUI/ca/cmpt213/as4/MainGUI.class" afterPath="$PROJECT_DIR$/out/production/ShapesAndGameUI/ca/cmpt213/as4/MainGUI.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShapesAndGameUI/ca/cmpt213/as4/shapes/Rectangle.class" afterPath="$PROJECT_DIR$/out/production/ShapesAndGameUI/ca/cmpt213/as4/shapes/Rectangle.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShapesAndGameUI/ca/cmpt213/as4/shapes/TextBox.class" afterPath="$PROJECT_DIR$/out/production/ShapesAndGameUI/ca/cmpt213/as4/shapes/TextBox.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ShapesAndGameUI/ca/cmpt213/as4/shapes/Triangle.class" afterPath="$PROJECT_DIR$/out/production/ShapesAndGameUI/ca/cmpt213/as4/shapes/Triangle.class" />
       <change beforePath="$PROJECT_DIR$/src/ca/cmpt213/as4/MainGUI.java" afterPath="$PROJECT_DIR$/src/ca/cmpt213/as4/MainGUI.java" />
-      <change beforePath="$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/Rectangle.java" afterPath="$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/Rectangle.java" />
       <change beforePath="$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/TextBox.java" afterPath="$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/TextBox.java" />
-      <change beforePath="$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/Triangle.java" afterPath="$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/Triangle.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +23,8 @@
       <file leaf-file-name="MainGUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ca/cmpt213/as4/MainGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="243" column="0" lean-forward="true" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+            <state relative-caret-position="42">
+              <caret line="38" column="35" lean-forward="false" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-394">
-              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="273">
+              <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
               <folding>
                 <element signature="e#122#123#0" expanded="true" />
                 <element signature="e#153#154#0" expanded="true" />
@@ -46,7 +48,7 @@
       <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="126">
               <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding>
                 <element signature="e#137#138#0" expanded="true" />
@@ -56,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextBox.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TextBox.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/TextBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+            <state relative-caret-position="89">
+              <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding>
                 <element signature="e#309#310#0" expanded="true" />
                 <element signature="e#339#340#0" expanded="true" />
@@ -116,7 +118,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="TriangleImplementation" />
       </map>
     </option>
   </component>
@@ -145,9 +147,9 @@
         <option value="$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/Shape.java" />
         <option value="$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/ShapeImpl.java" />
         <option value="$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/Triangle.java" />
         <option value="$PROJECT_DIR$/src/ca/cmpt213/as4/MainGUI.java" />
         <option value="$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/TextBox.java" />
-        <option value="$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/Triangle.java" />
       </list>
     </option>
   </component>
@@ -357,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520482976864</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Triangle fully implemented&#10;Basics of TextBox&#10;Cannot wrap for TextBox yet">
+      <created>1520633029110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520633029110</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -397,7 +406,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit&#10;Rectangle Implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit&#10;Rectangle Implemented" />
+    <MESSAGE value="Triangle fully implemented&#10;Basics of TextBox&#10;Cannot wrap for TextBox yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Triangle fully implemented&#10;Basics of TextBox&#10;Cannot wrap for TextBox yet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -459,13 +469,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/ca/cmpt213/as4/MainGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="42">
+          <caret line="38" column="35" lean-forward="false" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
           <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -500,36 +520,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/cmpt213/as4/MainGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="243" column="0" lean-forward="true" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/TextBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        <state relative-caret-position="89">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding>
             <element signature="e#309#310#0" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
             <element signature="e#385#386#0" expanded="true" />
             <element signature="e#423#424#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ca/cmpt213/as4/shapes/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-394">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
           </folding>
         </state>
       </provider>
