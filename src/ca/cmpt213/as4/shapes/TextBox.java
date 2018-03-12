@@ -28,6 +28,7 @@ public class TextBox extends Rectangle {
         char[] charArray = message.toCharArray();
         int messageCounter = 0;
         int messageLimit = charArray.length;
+        int lineLimit = this.getWidth() - 2;
         for(int y = topEdge; y < bottomEdge; y++)
         {
             for(int x = leftEdge; x < rightEdge; x++)
@@ -39,8 +40,19 @@ public class TextBox extends Rectangle {
                 else
                 {
                     if(messageCounter < messageLimit) {
-                        canvas.setCellText(x, y, charArray[messageCounter]);
-                        messageCounter++;
+                        if(x == rightEdge - 1 && charArray[messageCounter] != ' ' )
+                        {
+                            while(charArray[messageCounter] != ' ')
+                            {
+                                messageCounter--;
+                            }
+                        }
+                        else
+                        {
+                            canvas.setCellText(x, y, charArray[messageCounter]);
+                            messageCounter++;
+                        }
+
                     }
                 }
             }
