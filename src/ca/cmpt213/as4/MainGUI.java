@@ -36,7 +36,7 @@ public class MainGUI {
         // Test routines to exercise Picture and the Shape classes.
 //		frame.add(makeRectanglesPicture());
 		frame.add(makeTrianglesPicture());
-//		frame.add(makeTextBoxesPicture());
+		frame.add(makeTextBoxesPicture());
 //		frame.add(makeMixedPicture());
 //		frame.add(makeFrontAndBackPicture());
 
@@ -199,95 +199,95 @@ public class MainGUI {
 
     }
 
-//    // //////////////////////////////////////////////////////////////////////////
-//    // TextBox Test
-//    // //////////////////////////////////////////////////////////////////////////
-//    private static PicturePanel makeTextBoxesPicture() {
-//        PicturePanel picture = new PicturePanel("Text Box Test:", SIZE_X, SIZE_Y);
-//        testTextBoxRow1(picture);
-//        testTextBoxRow2(picture);
-//        return picture;
-//    }
-//
-//    private static void testTextBoxRow1(PicturePanel picture) {
-//        TextBox tb1 = new TextBox(0, 0, 14, 3, "Hello world!");
-//        tb1.setColor(Color.CYAN);
-//        picture.addFront(tb1);
-//
-//        tb1 = new TextBox(0, 5, 16, 3, "Hello world!");
-//        tb1.setColor(Color.RED);
-//        picture.addFront(tb1);
-//
-//        TextBox tb2 = new TextBox(20, 0, 9, 9,
-//                "And so it began, the great debugging!");
-//        tb2.setColor(Color.GREEN);
-//        picture.addFront(tb2);
-//
-//        // Code Monkey Lyrics, by Jonathan Coulton
-//        // See: http://www.youtube.com/watch?v=qYodWEKCuGg
-//        TextBox tb3 = new TextBox(
-//                30,
-//                0,
-//                30,
-//                15,
-//                "Code Monkey get up get coffee. "
-//                        + "Code Monkey go to job. "
-//                        + "Code Monkey have boring meeting with boring manager Rob. "
-//                        + "Rob say Code Monkey very diligent, "
-//                        + "but his output stink. "
-//                        + "His code not functional or elegant. "
-//                        + "What do Code Monkey think? "
-//                        + "Code Monkey think maybe manager want to write goddamn login page himself. "
-//                        + "Code Monkey not say it out loud. "
-//                        + "Code Monkey not crazy just proud.");
-//        picture.addFront(tb3);
-//
-//        TextBox tb4 = new TextBox(65, 5, 13, 10,
-//                "And there was much rejoicing!");
-//        tb4.setColor(Color.ORANGE);
-//        picture.addFront(tb4);
-//    }
-//
-//    private static void testTextBoxRow2(PicturePanel picture) {
-//        // Test how well the text wraps
-//        final int ROW = 16;
-//        String alphabet = " a b c d e f g h i j k l m n o p q r s t u v w x y z"
-//                + " A B C D E F G H I J K L M O P Q R S T U V W X Y Z ";
-//        TextBox tb1 = new TextBox(0, ROW, 8, 8, alphabet);
-//        tb1.setColor(Color.CYAN);
-//        picture.addFront(tb1);
-//
-//        tb1 = new TextBox(9, ROW, 8, 8, alphabet);
-//        tb1.setColor(Color.GREEN);
-//        picture.addFront(tb1);
-//
-//        tb1 = new TextBox(20, ROW, 7, 8, alphabet);
-//        tb1.setColor(Color.MAGENTA);
-//        picture.addFront(tb1);
-//
-//        tb1 = new TextBox(30, ROW, 9, 8, alphabet);
-//        tb1.setColor(Color.LIGHT_GRAY);
-//        picture.addFront(tb1);
-//
-//        tb1 = new TextBox(40, ROW, 9, 8, alphabet);
-//        tb1.setColor(Color.CYAN);
-//        tb1.setMessage("Hi yal!");
-//        tb1.setBorderChar('#');
-//        picture.addFront(tb1);
-//
-//        tb1 = new TextBox(50, ROW, 9, 3, alphabet);
-//        tb1.setColor(Color.GREEN);
-//        tb1.setMessage("Hi yal!");
-//        tb1.setBorderChar('&');
-//        picture.addFront(tb1);
-//
-//        tb1 = new TextBox(60, ROW, 20, 5, alphabet);
-//        tb1.setColor(Color.RED);
-//        tb1.setMessage("Hi yal!");
-//        tb1.setBorderChar('*');
-//        picture.addFront(tb1);
-//    }
-//
+    // //////////////////////////////////////////////////////////////////////////
+    // TextBox Test
+    // //////////////////////////////////////////////////////////////////////////
+    private static PicturePanel makeTextBoxesPicture() {
+        PicturePanel picture = new PicturePanel("Text Box Test:", SIZE_X, SIZE_Y);
+        testTextBoxRow1(picture);
+        testTextBoxRow2(picture);
+        return picture;
+    }
+
+    private static void testTextBoxRow1(PicturePanel picture) {
+        TextBox tb1 = new TextBox(0, 0, 14, 3, "Hello world!");
+        tb1.setColor(Color.CYAN);
+        picture.addFront(tb1);
+
+        tb1 = new TextBox(0, 5, 16, 3, "Hello world!");
+        tb1.setColor(Color.RED);
+        picture.addFront(tb1);
+
+        TextBox tb2 = new TextBox(20, 0, 9, 9,
+                "And so it began, the great debugging!");
+        tb2.setColor(Color.GREEN);
+        picture.addFront(tb2);
+
+        // Code Monkey Lyrics, by Jonathan Coulton
+        // See: http://www.youtube.com/watch?v=qYodWEKCuGg
+        TextBox tb3 = new TextBox(
+                30,
+                0,
+                30,
+                15,
+                "Code Monkey get up get coffee. "
+                        + "Code Monkey go to job. "
+                        + "Code Monkey have boring meeting with boring manager Rob. "
+                        + "Rob say Code Monkey very diligent, "
+                        + "but his output stink. "
+                        + "His code not functional or elegant. "
+                        + "What do Code Monkey think? "
+                        + "Code Monkey think maybe manager want to write goddamn login page himself. "
+                        + "Code Monkey not say it out loud. "
+                        + "Code Monkey not crazy just proud.");
+        picture.addFront(tb3);
+
+        TextBox tb4 = new TextBox(65, 5, 13, 10,
+                "And there was much rejoicing!");
+        tb4.setColor(Color.ORANGE);
+        picture.addFront(tb4);
+    }
+
+    private static void testTextBoxRow2(PicturePanel picture) {
+        // Test how well the text wraps
+        final int ROW = 16;
+        String alphabet = " a b c d e f g h i j k l m n o p q r s t u v w x y z"
+                + " A B C D E F G H I J K L M O P Q R S T U V W X Y Z ";
+        TextBox tb1 = new TextBox(0, ROW, 8, 8, alphabet);
+        tb1.setColor(Color.CYAN);
+        picture.addFront(tb1);
+
+        tb1 = new TextBox(9, ROW, 8, 8, alphabet);
+        tb1.setColor(Color.GREEN);
+        picture.addFront(tb1);
+
+        tb1 = new TextBox(20, ROW, 7, 8, alphabet);
+        tb1.setColor(Color.MAGENTA);
+        picture.addFront(tb1);
+
+        tb1 = new TextBox(30, ROW, 9, 8, alphabet);
+        tb1.setColor(Color.LIGHT_GRAY);
+        picture.addFront(tb1);
+
+        tb1 = new TextBox(40, ROW, 9, 8, alphabet);
+        tb1.setColor(Color.CYAN);
+        tb1.setMessage("Hi yal!");
+        tb1.setBorderChar('#');
+        picture.addFront(tb1);
+
+        tb1 = new TextBox(50, ROW, 9, 3, alphabet);
+        tb1.setColor(Color.GREEN);
+        tb1.setMessage("Hi yal!");
+        tb1.setBorderChar('&');
+        picture.addFront(tb1);
+
+        tb1 = new TextBox(60, ROW, 20, 5, alphabet);
+        tb1.setColor(Color.RED);
+        tb1.setMessage("Hi yal!");
+        tb1.setBorderChar('*');
+        picture.addFront(tb1);
+    }
+
 //    // //////////////////////////////////////////////////////////////////////////
 //    // Mixed Picture Test
 //    // //////////////////////////////////////////////////////////////////////////
